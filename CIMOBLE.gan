@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-08-19" view-index="0" gantt-divider-location="427" resource-divider-location="300" version="2.8.10" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="270" order="0"/>
+        <field id="tpd4" name="Date de début" width="55" order="1"/>
+        <field id="tpd5" name="Date de fin" width="98" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2019" month="10" date="29" type="HOLIDAY"><![CDATA[Vacances sur 29/10/19 00:00]]></date>
+        <date year="2019" month="10" date="28" type="HOLIDAY"><![CDATA[Vacances sur 28/10/19 00:00]]></date>
+        <date year="2019" month="10" date="30" type="HOLIDAY"><![CDATA[Vacances sur 30/10/19 00:00]]></date>
+        <date year="2019" month="10" date="31" type="HOLIDAY"><![CDATA[Vacances sur 31/10/19 00:00]]></date>
+        <date year="2019" month="11" date="1" type="HOLIDAY"><![CDATA[Vacances sur 01/11/19 00:00]]></date>
+        <date year="2019" month="11" date="2" type="HOLIDAY"><![CDATA[Vacances sur 02/11/19 00:00]]></date>
+        <date year="2019" month="10" date="26" type="HOLIDAY"><![CDATA[Vacances sur 26/10/19 00:00]]></date>
+        <date year="2019" month="10" date="27" type="HOLIDAY"><![CDATA[Vacances sur 27/10/19 00:00]]></date>
+        <date year="2019" month="11" date="3" type="HOLIDAY"><![CDATA[Vacances sur 03/11/19 00:00]]></date>
+        <date year="2019" month="11" date="11" type="HOLIDAY"><![CDATA[Vacances sur 11/11/19 00:00]]></date>
+        <date year="2019" month="12" date="23" type="HOLIDAY"><![CDATA[Vacances sur 23/12/19 00:00]]></date>
+        <date year="2019" month="12" date="22" type="HOLIDAY"><![CDATA[Vacances sur 22/12/19 00:00]]></date>
+        <date year="2019" month="12" date="21" type="HOLIDAY"><![CDATA[Vacances sur 21/12/19 00:00]]></date>
+        <date year="2019" month="12" date="24" type="HOLIDAY"><![CDATA[Vacances sur 24/12/19 00:00]]></date>
+        <date year="2019" month="12" date="25" type="HOLIDAY"><![CDATA[Vacances sur 25/12/19 00:00]]></date>
+        <date year="2019" month="12" date="26" type="HOLIDAY"><![CDATA[Vacances sur 26/12/19 00:00]]></date>
+        <date year="2019" month="12" date="27" type="HOLIDAY"><![CDATA[Vacances sur 27/12/19 00:00]]></date>
+        <date year="2019" month="12" date="28" type="HOLIDAY"><![CDATA[Vacances sur 28/12/19 00:00]]></date>
+        <date year="2019" month="12" date="29" type="HOLIDAY"><![CDATA[Vacances sur 29/12/19 00:00]]></date>
+        <date year="2019" month="12" date="30" type="HOLIDAY"><![CDATA[Vacances sur 30/12/19 00:00]]></date>
+        <date year="2019" month="12" date="31" type="HOLIDAY"><![CDATA[Vacances sur 31/12/19 00:00]]></date>
+        <date year="2020" month="1" date="1" type="HOLIDAY"><![CDATA[Vacances sur 01/01/20 00:00]]></date>
+        <date year="2020" month="1" date="2" type="HOLIDAY"><![CDATA[Vacances sur 02/01/20 00:00]]></date>
+        <date year="2020" month="1" date="3" type="HOLIDAY"><![CDATA[Vacances sur 03/01/20 00:00]]></date>
+        <date year="2020" month="1" date="4" type="HOLIDAY"><![CDATA[Vacances sur 04/01/20 00:00]]></date>
+        <date year="2020" month="1" date="5" type="HOLIDAY"><![CDATA[Vacances sur 05/01/20 00:00]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="14" name="Etude bibliographique" meeting="false" start="2019-09-23" duration="25" complete="0" expand="true"/>
+        <task id="0" name="Balise" color="#8cb6ce" meeting="false" start="2019-09-23" duration="15" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Mise en place du Systême" meeting="false" start="2019-09-23" duration="10" complete="0" expand="true"/>
+            <task id="5" name="Vérification" color="#8cb6ce" meeting="false" start="2019-10-07" duration="5" complete="0" thirdDate="2019-10-07" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="Etude et définition du systême" color="#8cb6ce" meeting="false" start="2019-10-14" duration="39" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true">
+            <task id="9" name="Signaux en temps et en fréquence" color="#8cb6ce" meeting="false" start="2019-10-14" duration="10" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Etude du systême CIDROLE Arduino" meeting="false" start="2019-11-04" duration="9" complete="0" expand="true"/>
+            <task id="17" name="Pre-Design" color="#8cb6ce" meeting="false" start="2019-11-18" duration="10" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Recherche du mobile terrestre" meeting="false" start="2019-12-02" duration="10" complete="0" expand="true">
+                <task id="25" name="Validation du choix de mobile" meeting="false" start="2019-12-02" duration="10" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="19" name="Réalisation électronique du systême" color="#8cb6ce" meeting="false" start="2019-11-04" duration="19" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true">
+            <task id="21" name="Programmation prototype Algo de traitement du recepteur" color="#8cb6ce" meeting="false" start="2019-11-04" duration="19" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="24" name="Embarquement sur mobile" color="#8cb6ce" meeting="false" start="2019-11-04" duration="34" complete="0" thirdDate="2019-09-16" thirdDate-constraint="0" expand="true">
+            <task id="30" name="cartographie des puissances RSSI" meeting="false" start="2019-11-04" duration="9" complete="0" expand="true"/>
+            <task id="28" name="Mesure de distance en extérieur" meeting="false" start="2019-11-18" duration="10" complete="0" expand="true">
+                <task id="29" name="Mesure GPS et représentation" meeting="false" start="2019-11-18" duration="10" complete="0" expand="true"/>
+            </task>
+            <task id="27" name="Mesure de distance en intérieur" color="#8cb6ce" meeting="false" start="2019-12-02" duration="10" complete="0" thirdDate="2019-09-16" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Résistance aux perturbations" meeting="false" start="2019-12-09" duration="10" complete="0" expand="true"/>
+        </task>
+        <task id="35" name="Optimisation du Systême" meeting="false" start="2019-12-16" duration="10" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
